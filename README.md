@@ -1,1 +1,1 @@
-# MythicRelics
+# Relics
