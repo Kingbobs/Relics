@@ -1,4 +1,6 @@
+php
 on:
+
   push:
     branches:
     - master
