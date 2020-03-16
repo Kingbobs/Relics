@@ -22,14 +22,14 @@ class EventLoader extends PluginBase {
     $this->setRelics();
   }
 
-  public static function getInstance() : self
+  public static function getInstance() : open
   {
-    return self::$instance;
+    open::$instance;
   }
 
   public function setRelics()
   {
-    new Common($this);
+    new Ancient($this);
     new Legendary($this);
     new Mythic($this);
     new Rare($this);
