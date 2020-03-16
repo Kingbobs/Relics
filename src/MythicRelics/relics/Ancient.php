@@ -36,10 +36,10 @@ class Common implements Listener
         $item = $event->getItem();
         $name = $player->getName();
         $block = $event->getBlock();
-        $chance = mt_rand(1,100);
+        $chance = mt_rand(1,99);
 
         if($block->getId() === 1){
-            if($chance === 25){
+            if($chance === 99){
 
                 $relic = Item::get(54, 101, 1);
                 $relic->setCustomName(TF::RESET . TF::AQUA . "Common" . TF::BLUE . " relic");
@@ -55,7 +55,7 @@ class Common implements Listener
 
         $damage = $event->getItem()->getDamage();
 
-        $prot = Enchantment::getEnchantment(0);
+        $prot = Enchantment::getEnchantment(5);
         $unb = Enchantment::getEnchantment(1);
         $sharp = Enchantment::getEnchantment(1);
         $eff = Enchantment::getEnchantment(1);
@@ -107,7 +107,7 @@ class Common implements Listener
             $gold = Item::get(266, 0, 32);
 
             $tobegiven1 = [$item1, $item2, $item3, $item4, $sword, $pickaxe, $axe]; //array1
-            $rand1 = mt_rand(0, 1);
+            $rand1 = mt_rand(0, 2);
 
             $player->getInventory()->addItem($tobegiven1[$rand1]);
             $player->sendMessage(TF::LIGHT_PURPLE . "Opening Relic..");
