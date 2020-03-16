@@ -1,5 +1,5 @@
-name: MythicRelics
-main: MythicRelics\EventLoader
+name: Relics
+main: Relics\EventLoader
 version: 1.0.0
 api:
 - 3.0.0
