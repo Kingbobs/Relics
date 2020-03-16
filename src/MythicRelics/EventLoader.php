@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 use pocketmine\Server;
 
-use MythicRelics\relics\Common;
+use MythicRelics\relics\Ancient;
 use MythicRelics\relics\Rare;
 use MythicRelics\relics\Legendary;
 use MythicRelics\relics\Mythic;
@@ -22,7 +22,7 @@ class EventLoader extends PluginBase {
     $this->setRelics();
   }
 
-  public static function getInstance() : open
+  public static function getInstance() : place block
   {
     open::$instance;
   }
