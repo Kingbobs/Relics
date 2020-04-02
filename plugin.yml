@@ -1,6 +1,0 @@
-name: Relics
-main: MythicRelics\EventLoader
-version: 1.0.0
-api:
-- 3.11.1
-author: MakerbakerYT
