@@ -28,34 +28,34 @@ class Main extends PluginBase implements Listener{
 	    $block = $event->getBlock();
         $item = $event->getItem();
         $name = $player->getName();
-      
-	    
+
+
 	    if($block->getId() == 1){
 		if (mt_rand(0, 500) >= 20){
-		    
+
 			$chance = mt_rand(0, 500);
 			/**
-			 * Common 25%
-			 * epic 20%
-			 * rare 15%
-			 * legendary 10%
-			 * mythical 5%
+			 * Common 30%
+			 * epic 60%
+			 * rare 90%
+			 * legendary 85%
+			 * mythical 95%
 			 */
-			if ($chance > 25 && $chance <= 30){
+			if ($chance > 30 && $chance <= 45){
 				$event->getPlayer()->sendMessage($this->config["Common"]["Message"]["Receive"]);
 				$this->giveRelic($event->getPlayer(), "common");
 			}
-			if ($chance > 20 && $chance <= 25){
+			if ($chance > 60 && $chance <= 70){
 				$event->getPlayer()->sendMessage($this->config["Epic"]["Message"]["Receive"]);
 				$this->giveRelic($event->getPlayer(), "epic");
 			}
-			if ($chance > 15 && $chance <= 20){
+			if ($chance > 90 && $chance <= 110){
 				$this->giveRelic($event->getPlayer(), "rare");
 			}
-			if ($chance > 10 && $chance <= 15){
+			if ($chance > 85 && $chance <= 120){
 				$this->giveRelic($event->getPlayer(), "legendary");
 			}
-			if ($chance > 5 && $chance <= 10){
+			if ($chance > 95 && $chance <= 100){
 				$this->giveRelic($event->getPlayer(), "mythical");
 			}
 		}
