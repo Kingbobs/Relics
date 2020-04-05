@@ -1,7 +1,9 @@
-# Relic
-Easy Rewared Plugin
+### Relic
+Mining Rewards
 
-# How To Use?
+Fun and Creative
+
+## How To Use?
 Easy You Need To Dowload Plugin.
 
 Places Plugin In Plugin Folder.
