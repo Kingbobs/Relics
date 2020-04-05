@@ -1,6 +1,6 @@
 <?php
 
-namespace provsalt\relics;
+namespace /provsalt\relics;
 
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\item\Item;
