@@ -22,7 +22,7 @@ Epic:
   - "give {PLAYER} diamond_block 5"
 Rare:
   # Name of relic when receiving the relic
-  Name: "&cRare Relic"
+  Name: "&l&cRare Relic"
   # Item Lore
   Lore: "&bPlace the relic to claim!"
   Message:
