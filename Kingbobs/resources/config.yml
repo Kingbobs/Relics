@@ -1,8 +1,8 @@
 Common:
   # Name of relic when receiving the relic
-  Name: "&bCommon Relic"
+  Name: "&cCommon Relic"
   # Item Lore
-  Lore: "&bPlace the relic to claim!"
+  Lore: "&cPlace the relic to claim!"
   # Messages to run
   Message:
     Receive: "You found a Common relic"
