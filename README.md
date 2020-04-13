@@ -8,7 +8,8 @@ Ok First Step Is Easy Dowload Plugin Right!
 2) Is Put Put In Your Plugin Folder Then You Need To Reset Server
 
 3) Its easy To Config For exaple!
-**- Common:
+
+**- [Common]:
   - Name of relic when receiving the relic
   - Name: "&cCommon Relic"
   - Item Lore
@@ -20,7 +21,7 @@ Ok First Step Is Easy Dowload Plugin Right!
   - Commands:
   - "give {PLAYER} diamond_block 3"
 
-** - Epic:
+** - [Epic]:
   -name of relic when receiving the relic
   - Name: "&bEpic Relic"
   - Item Lore
@@ -32,7 +33,7 @@ Ok First Step Is Easy Dowload Plugin Right!
   - Commands:
   - "give {PLAYER} diamond_block 5"
 
-** - Rare:
+** - [Rare]:
   - Name of relic when receiving the relic
   - Name: "&l&cRare Relic"
   - Item Lore
@@ -43,7 +44,7 @@ Ok First Step Is Easy Dowload Plugin Right!
   - Commands:
   - "give {PLAYER} diamond_block 10"
 
-**- Legendary:
+**- [Legendary]:
   - Name of relic when receiving the relic
   - Name: "&6Legendary Relic"
   - Item Lore
@@ -55,7 +56,7 @@ Ok First Step Is Easy Dowload Plugin Right!
   - Commands:
   - "give {PLAYER} diamond_block 32"
 
-**- Mythical:
+**- [Mythical]:
   - Name of relic when receiving the relic
   - Name: "&fMythical Relic"
   - Item Lore
