@@ -1,13 +1,12 @@
-### Relic
-Mining Rewards
+# Relic About
+Reilcs are fun for faction or maybe prison servers
 
-Fun and Creative
+They Give a reward and a cancs to get it while you are mining.
+# How To Use?
+Ok First Step Is Easy Dowload Plugin Right!
 
-## How To Use?
-Easy You Need To Dowload Plugin.
+2) Is Put Put In Your Plugin Folder Then You Need To Reset Server
 
-Places Plugin In Plugin Folder.
+3) Its easy To Config For exaple!
 
-Reset Server And Starte Mineing.
-
-Easy To Edit In Files To Add Other Stuff
+5) Have Fun Report Any Errors
