@@ -8,7 +8,7 @@ Ok First Step Is Easy Dowload Plugin Right!
 2) Is Put Put In Your Plugin Folder Then You Need To Reset Server
 
 3) Its easy To Config For exaple!
-Common:
+[Common:
   Name of relic when receiving the relic
   Name: "&cCommon Relic"
   Item Lore
@@ -61,7 +61,7 @@ Mythical:
     Receive: "You found a Mythical relic"
     Opening: "Opening Mythical relic"
   Commands:
-  - "give {PLAYER} diamond_block 64"
+  - "give {PLAYER} diamond_block 64"]
 
 
 5) Have Fun Report Any Errors
