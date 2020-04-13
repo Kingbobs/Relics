@@ -1,5 +1,5 @@
 name: Relics
 api: 3.11.0
-main: Kingbobs\relics\Main
+main: relics\Main
 version: 1.0.4
 author: Kingbobs
