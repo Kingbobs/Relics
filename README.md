@@ -70,11 +70,3 @@ Ok First Step Is Easy Dowload Plugin Right!
 
 
 5) Have Fun Report Any Errors
-
-
-
-
-
-
-https://www.google.com/search?q=cool+photo&safe=strict&sxsrf=ALeKk02GmusPy1t9gnsa7Jf0qNSHaF-Aaw:1586783792945&tbm=isch&source=iu&ictx=1&fir=b7GlIqCKnN_3xM%253A%252CXhqWgSpCTF6vhM%252C_&vet=1&usg=AI4_-kTgS5o8bgG0NiZikCTUTYSZjPeXow&sa=X&ved=2ahUKEwi-_8CivuXoAhXDG80KHbTBCY8Q9QEwAnoECAoQNA#imgrc=b7GlIqCKnN_3xM:
-
