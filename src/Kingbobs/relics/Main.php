@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingbobs/relics;
+namespace src/Kingbobs/relics;
 
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\item\Item;
