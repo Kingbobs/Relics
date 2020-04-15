@@ -75,7 +75,7 @@ class Main extends PluginBase implements Listener{
 
 		switch ($type){
 			case "common":
-				$item = ItemFactory::get(Item::NETHER_STAR, 0, 1);
+				$item = ItemFactory::get(Item::BOOKSHELF, 0, 1);
 				$item->setNamedTagEntry(new ByteTag("common"));
 				$item->setCustomName(TextFormat::colorize($this->config["Common"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Common"]["Lore"])]);
@@ -83,7 +83,7 @@ class Main extends PluginBase implements Listener{
 				$player->getInventory()->addItem($item);
 			break;
 			case "epic":
-				$item = ItemFactory::get(Item::NETHER_STAR, 0, 1);
+				$item = ItemFactory::get(Item::CHEST, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Epic"]["Name"]));
 				$item->setNamedTagEntry(new ByteTag("epic"));
 				$item->setLore([TextFormat::colorize($this->config["Epic"]["Lore"])]);
@@ -91,7 +91,7 @@ class Main extends PluginBase implements Listener{
 				$player->getInventory()->addItem($item);
 			break;
 			case "rare":
-				$item = ItemFactory::get(Item::NETHER_STAR, 0, 1);
+				$item = ItemFactory::get(Item::ENDER_CHEST, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Rare"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Rare"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("rare"));
@@ -99,7 +99,7 @@ class Main extends PluginBase implements Listener{
 				$player->getInventory()->addItem($item);
 			break;
 			case "legendary":
-				$item = ItemFactory::get(Item::NETHER_STAR, 0, 1);
+				$item = ItemFactory::get(Item::ANVIL, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Legendary"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Legendary"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("legendary"));
@@ -107,7 +107,7 @@ class Main extends PluginBase implements Listener{
 				$player->sendMessage($this->config["Legendary"]["Message"]["Receive"]);
 			break;
 			case "mythical":
-				$item = ItemFactory::get(Item::NETHER_STAR, 0, 1);
+				$item = ItemFactory::get(Item::PUMPKIN, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Mythical"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Mythical"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("mythical"));
