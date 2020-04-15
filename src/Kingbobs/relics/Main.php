@@ -1,6 +1,6 @@
 <?php
 
-namespace src/Kingbobs/relics;
+namespace Kingbobs\relics;
 
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\item\Item;
@@ -35,27 +35,27 @@ class Main extends PluginBase implements Listener{
 		    
 			$chance = mt_rand(0, 500);
 			/**
-			 * Common 50%
-			 * epic 30%
-			 * rare 25%
-			 * legendary 20%
-			 * mythical 10%
+			 * Common 45%
+			 * epic 25%
+			 * rare 15%
+			 * legendary 10%
+			 * mythical 5%
 			 */
-			if ($chance > 50 & $chance <= 50){
+			if ($chance > 30 && $chance <= 45){
 				$event->getPlayer()->sendMessage($this->config["Common"]["Message"]["Receive"]);
 				$this->giveRelic($event->getPlayer(), "common");
 			}
-			if ($chance > 30 & $chance <= 40){
+			if ($chance > 60 && $chance <= 70){
 				$event->getPlayer()->sendMessage($this->config["Epic"]["Message"]["Receive"]);
 				$this->giveRelic($event->getPlayer(), "epic");
 			}
-			if ($chance > 25 & $chance <= 30){
+			if ($chance > 90 && $chance <= 110){
 				$this->giveRelic($event->getPlayer(), "rare");
 			}
-			if ($chance > 20 & $chance <= 25){
+			if ($chance > 85 && $chance <= 120){
 				$this->giveRelic($event->getPlayer(), "legendary");
 			}
-			if ($chance > 10 & $chance <= 20){
+			if ($chance > 95 && $chance <= 100){
 				$this->giveRelic($event->getPlayer(), "mythical");
 			}
 		}
@@ -71,7 +71,7 @@ class Main extends PluginBase implements Listener{
 	 * @param $player
 	 * @param $type
 	 */
-	public function giveRelic(Player $player  $type){
+	public function giveRelic(Player $player, $type){
 
 		switch ($type){
 			case "common":
@@ -91,7 +91,7 @@ class Main extends PluginBase implements Listener{
 				$player->getInventory()->addItem($item);
 			break;
 			case "rare":
-				$item = ItemFactory::get(Item::ENDER_CHEST, 0, 1);
+				$item = ItemFactory::get(Item::ANVIL, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Rare"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Rare"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("rare"));
@@ -99,7 +99,7 @@ class Main extends PluginBase implements Listener{
 				$player->getInventory()->addItem($item);
 			break;
 			case "legendary":
-				$item = ItemFactory::get(Item::ANVIL, 0, 1);
+				$item = ItemFactory::get(Item::PUMPKIN, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Legendary"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Legendary"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("legendary"));
@@ -107,7 +107,7 @@ class Main extends PluginBase implements Listener{
 				$player->sendMessage($this->config["Legendary"]["Message"]["Receive"]);
 			break;
 			case "mythical":
-				$item = ItemFactory::get(Item::PUMPKIN, 0, 1);
+				$item = ItemFactory::get(Item::ENDER_CHEST, 0, 1);
 				$item->setCustomName(TextFormat::colorize($this->config["Mythical"]["Name"]));
 				$item->setLore([TextFormat::colorize($this->config["Mythical"]["Lore"])]);
 				$item->setNamedTagEntry(new ByteTag("mythical"));
