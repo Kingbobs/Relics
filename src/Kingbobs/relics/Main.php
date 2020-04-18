@@ -68,10 +68,10 @@ class Main extends PluginBase implements Listener{
 		self::$instance = $this;
 	}
 	/**
-	 * @param $player
-	 * @param $type
+	 * $player
+	 * $type
 	 */
-	public function giveRelic(Player $player $type){
+	public function giveRelic(Player $player, $type){
 
 		switch ($type){
 			case "common":
