@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 	    if($block->getId() == 1){
 		if (mt_rand(0, 500) >= 20){
 		    
-			$chance = mt_rand(0, 500);
+			$chance = mt_rand(1, 500);
 			/**
 			 * Common 45%
 			 * epic 25%
@@ -68,8 +68,8 @@ class Main extends PluginBase implements Listener{
 		self::$instance = $this;
 	}
 	/**
-	 * @param $player
-	 * @param $type
+	 * @param Player $player
+	 * @param Type $type
 	 */
 	public function giveRelic(Player $player, $type){
 
