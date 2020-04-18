@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener{
 			$chance = mt_rand(0, 500);
 			/**
 			 * Common 80%
-			 * epic 460%
+			 * epic 60%
 			 * rare 40%
 			 * legendary 10%
 			 * mythical 1%
