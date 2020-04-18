@@ -1,4 +1,4 @@
-# Relic About
+#### Relic About
 Reilcs are fun for faction or maybe prison servers
 
 They Give a reward and a cancs to get it while you are mining.
