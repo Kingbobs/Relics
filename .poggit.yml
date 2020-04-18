@@ -4,6 +4,6 @@ branches:
 - master
 projects:
   Relics:
-    path: ""
+    path: "unknown.png"
     icon: "unknown.png"
 ...
