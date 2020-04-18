@@ -70,3 +70,4 @@ Ok First Step Is Easy Dowload Plugin Right!
 
 
 5) Have Fun Report Any Errors
+icon: "unknown.png"
