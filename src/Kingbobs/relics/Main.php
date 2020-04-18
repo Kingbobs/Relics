@@ -52,7 +52,7 @@ class Main extends PluginBase implements Listener{
 			if ($chance > 40 && $chance <= 90){
 				$this->giveRelic($event->getPlayer(), "rare");
 			}
-			if ($chance > 10 && $chance <= 20){
+			if ($chance > 10 && $chance <= 100){
 				$this->giveRelic($event->getPlayer(), "legendary");
 			}
 			if ($chance > 1 && $chance <= 120){
