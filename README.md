@@ -9,7 +9,7 @@ Ok First Step Is Easy Dowload Plugin Right!
 
 3) Its easy To Config For exaple!
 
-**- [Common]:
+**Common**:
   - Name of relic when receiving the relic
   - Name: "&cCommon Relic"
   - Item Lore
@@ -21,7 +21,7 @@ Ok First Step Is Easy Dowload Plugin Right!
   - Commands:
   - "give {PLAYER} diamond_block 3"
 
-** - [Epic]:
+**[Epic]**:
   -name of relic when receiving the relic
   - Name: "&bEpic Relic"
   - Item Lore
