@@ -68,8 +68,8 @@ class Main extends PluginBase implements Listener{
 		self::$instance = $this;
 	}
 	/**
-	 * @param Player "$player"
-	 * @param Type "$type"
+	 *  Player "$player"
+	 *  Type "$type"
 	 */
 	public function giveRelic(Player $player, $type){
 
